@@ -14,7 +14,7 @@ from reportlab.pdfbase import pdfmetrics
 # PAGE CONFIG
 # -------------------------------------------------
 st.set_page_config(
-    page_title="FinTrust AI",
+    page_title="Loanwise AI",
     layout="centered"
 )
 
@@ -109,7 +109,7 @@ def reset_fields():
 # -------------------------------------------------
 st.markdown('<div class="card">', unsafe_allow_html=True)
 
-st.markdown('<div class="title">FinTrust AI</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">Loanwise AI</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Smart Loan Risk Assessment Platform</div>', unsafe_allow_html=True)
 
 # -------------------------------------------------
